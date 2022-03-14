@@ -1,0 +1,2218 @@
+2022-03-02 08:25:07 error: Fixture creation for "requests" failed "SQLSTATE[HY000]: General error: 1 table "requests" already exists"
+2022-03-02 08:25:07 warning: Warning (512): Fixture creation for "requests" failed "SQLSTATE[HY000]: General error: 1 table "requests" already exists" in [/src/public/cakephp/vendor/cakephp/cakephp/src/TestSuite/Fixture/TestFixture.php, line 294]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+Cake\TestSuite\Fixture\TestFixture::create() - CORE/src/TestSuite/Fixture/TestFixture.php, line 294
+DebugKit\Model\Table\RequestsTable::ensureTables() - ROOT/vendor/cakephp/debug_kit/src/Model/Table/LazyTableTrait.php, line 69
+DebugKit\Model\Table\RequestsTable::initialize() - ROOT/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php, line 55
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 322
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 309
+Cake\ORM\Locator\TableLocator::createInstance() - CORE/src/ORM/Locator/TableLocator.php, line 264
+Cake\Datasource\Locator\AbstractLocator::get() - CORE/src/Datasource/Locator/AbstractLocator.php, line 68
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 205
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 264
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2022-03-02 08:25:07 error: Fixture creation for "panels" failed "SQLSTATE[HY000]: General error: 1 table "panels" already exists"
+2022-03-02 08:25:07 warning: Warning (512): Fixture creation for "panels" failed "SQLSTATE[HY000]: General error: 1 table "panels" already exists" in [/src/public/cakephp/vendor/cakephp/cakephp/src/TestSuite/Fixture/TestFixture.php, line 294]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+Cake\TestSuite\Fixture\TestFixture::create() - CORE/src/TestSuite/Fixture/TestFixture.php, line 294
+DebugKit\Model\Table\RequestsTable::ensureTables() - ROOT/vendor/cakephp/debug_kit/src/Model/Table/LazyTableTrait.php, line 69
+DebugKit\Model\Table\RequestsTable::initialize() - ROOT/vendor/cakephp/debug_kit/src/Model/Table/RequestsTable.php, line 55
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 322
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 309
+Cake\ORM\Locator\TableLocator::createInstance() - CORE/src/ORM/Locator/TableLocator.php, line 264
+Cake\Datasource\Locator\AbstractLocator::get() - CORE/src/Datasource/Locator/AbstractLocator.php, line 68
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 205
+DebugKit\ToolbarService::saveData() - ROOT/vendor/cakephp/debug_kit/src/ToolbarService.php, line 264
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 66
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2022-03-02 08:25:10 warning: Warning (512): Unable to emit headers. Headers sent in file=/src/public/cakephp/vendor/cakephp/cakephp/src/Error/Debugger.php line=988 in [/src/public/cakephp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2022-03-02 08:25:10 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/src/public/cakephp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2022-03-02 08:25:10 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/src/public/cakephp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+require - ROOT/webroot/index.php, line 40
+[main] - ROOT/index.php, line 16
+
+2022-03-02 08:50:01 error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/RouteCollection.php on line 197
+Exception Attributes: array (
+  'url' => '/',
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Router.php:232
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:139
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:20:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:20:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:20:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:20:29 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:21:16 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:21:16 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:21:16 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:21:17 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:21:25 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:21:25 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:21:25 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:21:25 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:24:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:24:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:24:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:24:15 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:24:20 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:24:20 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:24:20 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:24:21 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:27:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:27:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:27:03 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:27:04 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:35:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:35:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:35:13 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:35:14 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:36:01 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:36:01 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:36:01 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:36:04 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:36:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/home.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:36:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/cake.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:36:30 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/normalize.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 03:36:31 error: [Cake\Http\Exception\MissingControllerException] Controller class Css could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+- /src/public/cakephp/index.php:16
+
+Request URL: /css/milligram.min.css
+Referer URL: http://127.0.0.1/
+Client IP: 172.19.0.1
+
+
+2022-03-03 04:17:48 error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::edit() could not be found, or is not accessible. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 518
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: http://127.0.0.1/articles/view/first-post
+Client IP: 172.19.0.1
+
+
+2022-03-03 04:17:49 error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::edit() could not be found, or is not accessible. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 518
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'edit',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/edit/first-post
+Referer URL: http://127.0.0.1/articles/view/first-post
+Client IP: 172.19.0.1
+
+
+2022-03-03 04:34:27 error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::view() could not be found, or is not accessible. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 518
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/view
+Client IP: 172.19.0.1
+
+
+2022-03-03 04:35:32 error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::index() could not be found, or is not accessible. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 518
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles
+Client IP: 172.19.0.1
+
+
+2022-03-03 04:35:55 error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::index() could not be found, or is not accessible. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 518
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/index
+Client IP: 172.19.0.1
+
+
+2022-03-03 04:36:36 error: [Cake\View\Exception\MissingTemplateException] Template file `Articles/index.php` could not be found.
+
+The following paths were searched:
+
+- `/src/public/cakephp/templates/Articles/index.php`
+- `/src/public/cakephp/vendor/cakephp/cakephp/templates/Articles/index.php`
+ in /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Articles/index.php',
+  'paths' => 
+  array (
+    0 => '/src/public/cakephp/templates/',
+    1 => '/src/public/cakephp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:766
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/index
+Client IP: 172.19.0.1
+
+
+2022-03-03 04:38:07 error: [Cake\Controller\Exception\MissingActionException] Action ArticlesController::view() could not be found, or is not accessible. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 518
+Exception Attributes: array (
+  'controller' => 'ArticlesController',
+  'action' => 'view',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/view/first-post
+Referer URL: http://127.0.0.1/articles/index
+Client IP: 172.19.0.1
+
+
+2022-03-03 04:39:11 error: [Cake\View\Exception\MissingTemplateException] Template file `Articles/view.php` could not be found.
+
+The following paths were searched:
+
+- `/src/public/cakephp/templates/Articles/view.php`
+- `/src/public/cakephp/vendor/cakephp/cakephp/templates/Articles/view.php`
+ in /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Articles/view.php',
+  'paths' => 
+  array (
+    0 => '/src/public/cakephp/templates/',
+    1 => '/src/public/cakephp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:766
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/view/first-post
+Referer URL: http://127.0.0.1/articles/index
+Client IP: 172.19.0.1
+
+
+2022-03-03 04:47:39 error: [ParseError] syntax error, unexpected token "public", expecting end of file in /src/public/cakephp/src/Model/Table/ArticlesTable.php on line 14
+Stack Trace:
+- /src/public/cakephp/vendor/composer/ClassLoader.php:428
+- class_exists - [internal], line ??- /src/public/cakephp/vendor/cakephp/cakephp/src/Core/App.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Core/App.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:291
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:227
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Datasource/Locator/AbstractLocator.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php:205
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php:128
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:315
+- /src/public/cakephp/src/Controller/ArticlesController.php:11
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles
+Client IP: 172.19.0.1
+
+
+2022-03-03 06:15:34 error: [Cake\View\Exception\MissingTemplateException] Template file `Blog/index.php` could not be found.
+
+The following paths were searched:
+
+- `/src/public/cakephp/templates/Blog/index.php`
+- `/src/public/cakephp/vendor/cakephp/cakephp/templates/Blog/index.php`
+ in /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Blog/index.php',
+  'paths' => 
+  array (
+    0 => '/src/public/cakephp/templates/',
+    1 => '/src/public/cakephp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:766
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /blog
+Client IP: 172.19.0.1
+
+
+2022-03-03 06:37:06 error: [Error] Call to a member function paginate() on null in /src/public/cakephp/src/Controller/ArticlesController.php on line 18
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles
+Referer URL: http://127.0.0.1/articles/edit/second-title
+Client IP: 172.19.0.1
+
+
+2022-03-03 06:37:07 warning: Warning (512): Unable to emit headers. Headers sent in file=/src/public/cakephp/vendor/cakephp/cakephp/src/Error/Debugger.php line=988 in [/src/public/cakephp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /articles
+Referer URL: http://127.0.0.1/articles/edit/second-title
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-03-03 06:37:07 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/src/public/cakephp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /articles
+Referer URL: http://127.0.0.1/articles/edit/second-title
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-03-03 06:37:07 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/src/public/cakephp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /articles
+Referer URL: http://127.0.0.1/articles/edit/second-title
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-03-03 06:37:07 warning: Warning (2): Cannot modify header information - headers already sent by (output started at /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Debugger.php:988) in [/src/public/cakephp/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /articles
+Referer URL: http://127.0.0.1/articles/edit/second-title
+Client IP: 172.19.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 185
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 123
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 128
+[main] - ROOT/webroot/index.php, line 40
+
+2022-03-04 03:01:45 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /src/public/cakephp/templates/Pages/home.php on line 45
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/src/Controller/PagesController.php:65
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.19.0.1
+
+
+2022-03-04 03:01:51 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /src/public/cakephp/templates/Pages/home.php on line 45
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/src/Controller/PagesController.php:65
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.19.0.1
+
+
+2022-03-04 03:33:14 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:33:18 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:33:20 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:33:22 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:33:22 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:33:22 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:33:22 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:33:23 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:33:23 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:33:23 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:33:31 error: [TypeError] Cake\Utility\Security::setSalt(): Argument #1 ($salt) must be of type string, null given, called in /src/public/cakephp/config/bootstrap.php on line 165 in /src/public/cakephp/vendor/cakephp/cakephp/src/Utility/Security.php on line 307
+Stack Trace:
+- /src/public/cakephp/config/bootstrap.php:165
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:173
+- /src/public/cakephp/src/Application.php:47
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:109
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:79
+- /src/public/cakephp/webroot/index.php:40
+
+
+
+2022-03-04 03:41:13 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /src/public/cakephp/templates/Pages/home.php on line 45
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/src/Controller/PagesController.php:65
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.19.0.1
+
+
+2022-03-04 03:42:25 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /src/public/cakephp/templates/Pages/home.php on line 45
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/src/Controller/PagesController.php:65
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.19.0.1
+
+
+2022-03-04 03:42:28 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /src/public/cakephp/templates/Pages/home.php on line 45
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/src/Controller/PagesController.php:65
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.19.0.1
+
+
+2022-03-04 03:42:30 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /src/public/cakephp/templates/Pages/home.php on line 45
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/src/Controller/PagesController.php:65
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.19.0.1
+
+
+2022-03-04 03:42:33 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /src/public/cakephp/templates/Pages/home.php on line 45
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/src/Controller/PagesController.php:65
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.19.0.1
+
+
+2022-03-04 03:42:39 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /src/public/cakephp/templates/Pages/home.php on line 45
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/src/Controller/PagesController.php:65
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /
+Referer URL: http://192.168.1.76/articles
+Client IP: 172.19.0.1
+
+
+2022-03-04 03:42:54 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /src/public/cakephp/templates/Pages/home.php on line 45
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/src/Controller/PagesController.php:65
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.19.0.1
+
+
+2022-03-04 03:42:56 error: [Cake\Http\Exception\NotFoundException] Please replace templates/Pages/home.php with your own version or re-enable debug mode. in /src/public/cakephp/templates/Pages/home.php on line 45
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/src/Controller/PagesController.php:65
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.19.0.1
+
+
+2022-03-13 14:14:19 error: [Cake\Http\Exception\MissingControllerException] Controller class Cakephp could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Cakephp',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:164
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /cakephp/webroot/
+Client IP: 172.18.0.1
+
+
+2022-03-13 14:14:28 error: [Cake\Http\Exception\MissingControllerException] Controller class Cakephp could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Cakephp',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /cakephp/webroot/
+Client IP: 172.18.0.1
+
+
