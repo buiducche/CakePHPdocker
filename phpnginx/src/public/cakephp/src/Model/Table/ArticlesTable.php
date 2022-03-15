@@ -24,16 +24,5 @@ class ArticlesTable extends Table
             $entity->slug = substr($sluggedTitle, 0, 191);
         }
     }
-    public function validationDefault(Validator $validator): Validator
-    {
-        $validator
-            ->notEmptyString('title')
-            ->minLength('title', 1)
-            ->maxLength('title', 255)
-
-            ->notEmptyString('body')
-            ->minLength('body', 1);
-
-        return $validator;
-    }
+  
 }

@@ -2216,3 +2216,516 @@ Request URL: /cakephp/webroot/
 Client IP: 172.18.0.1
 
 
+2022-03-14 09:43:50 error: [Cake\Http\Exception\MissingControllerException] Controller class Chat could not be found. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 340
+Exception Attributes: array (
+  'class' => 'Chat',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:74
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /chat/
+Client IP: 172.18.0.1
+
+
+2022-03-14 09:47:09 error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 417
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /chat/feed
+Referer URL: http://127.0.0.1/chat/feed
+Client IP: 172.18.0.1
+
+
+2022-03-14 09:55:21 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/add
+Referer URL: http://127.0.0.1/articles/add
+Client IP: 172.18.0.1
+
+
+2022-03-14 09:57:14 error: [Cake\Database\Exception\DatabaseException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake_cms.t_feed' doesn't exist in /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 160
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:118
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:92
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:513
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:290
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:184
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1699
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1263
+- /src/public/cakephp/src/Controller/ChatController.php:18
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake_cms.t_feed' doesn't exist in /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:75
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:306
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:309
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:158
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:118
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:92
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:513
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:290
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Query.php:184
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1699
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1263
+- /src/public/cakephp/src/Controller/ChatController.php:18
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /chat/
+Client IP: 172.18.0.1
+
+
+2022-03-14 09:57:36 error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 417
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /chat/feed
+Referer URL: http://127.0.0.1/chat/feed
+Client IP: 172.18.0.1
+
+
+2022-03-14 10:00:01 error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'slug' doesn't have a default value in /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:75
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:337
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:340
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:250
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2072
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1965
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1866
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1555
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:686
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1867
+- /src/public/cakephp/src/Controller/ArticlesController.php:36
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/add
+Referer URL: http://127.0.0.1/articles/add
+Client IP: 172.18.0.1
+
+
+2022-03-14 10:02:17 error: [Cake\Controller\Exception\MissingActionException] Action ChatController::feed() could not be found, or is not accessible. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 518
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /chat/feed
+Referer URL: http://127.0.0.1/chat
+Client IP: 172.18.0.1
+
+
+2022-03-14 10:02:41 error: [Cake\Controller\Exception\MissingActionException] Action ChatController::feed() could not be found, or is not accessible. in /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php on line 518
+Exception Attributes: array (
+  'controller' => 'ChatController',
+  'action' => 'feed',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:135
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /chat/feed
+Referer URL: http://127.0.0.1/chat
+Client IP: 172.18.0.1
+
+
+2022-03-14 10:02:45 error: [Cake\View\Exception\MissingTemplateException] Template file `Chat/add.php` could not be found.
+
+The following paths were searched:
+
+- `/src/public/cakephp/templates/Chat/add.php`
+- `/src/public/cakephp/vendor/cakephp/cakephp/templates/Chat/add.php`
+ in /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php on line 1359
+Exception Attributes: array (
+  'file' => 'Chat/add.php',
+  'paths' => 
+  array (
+    0 => '/src/public/cakephp/templates/',
+    1 => '/src/public/cakephp/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:766
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /chat/add
+Referer URL: http://127.0.0.1/chat
+Client IP: 172.18.0.1
+
+
+2022-03-14 10:03:10 error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 417
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /chat/add
+Referer URL: http://127.0.0.1/chat/add
+Client IP: 172.18.0.1
+
+
+2022-03-14 10:07:07 error: [Error] Call to a member function format() on null in /src/public/cakephp/templates/Chat/index.php on line 13
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1181
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:1138
+- /src/public/cakephp/vendor/cakephp/cakephp/src/View/View.php:769
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:762
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:548
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /chat
+Referer URL: http://127.0.0.1/chat/add
+Client IP: 172.18.0.1
+
+
+2022-03-15 03:12:22 error: [Cake\Http\Exception\InvalidCsrfTokenException] Missing or invalid CSRF cookie. in /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 394
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/add
+Referer URL: http://127.0.0.1/articles/add
+Client IP: 172.18.0.1
+
+
+2022-03-15 03:13:57 error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 417
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:170
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/add
+Referer URL: http://127.0.0.1/articles/add
+Client IP: 172.18.0.1
+
+
+2022-03-15 03:14:28 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdasd' for key 'articles.slug' in /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:75
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:337
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:340
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:250
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2072
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1965
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1866
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1555
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:686
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1867
+- /src/public/cakephp/src/Controller/ArticlesController.php:36
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/add
+Referer URL: http://127.0.0.1/articles/add
+Client IP: 172.18.0.1
+
+
+2022-03-15 03:14:42 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sdfsdf' for key 'articles.slug' in /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:75
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:337
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:340
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Query.php:250
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:2072
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1965
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1866
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1555
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Database/Connection.php:686
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /src/public/cakephp/vendor/cakephp/cakephp/src/ORM/Table.php:1867
+- /src/public/cakephp/src/Controller/ArticlesController.php:36
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/cakephp/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/cakephp/webroot/index.php:40
+
+Request URL: /articles/add
+Referer URL: http://127.0.0.1/articles/add
+Client IP: 172.18.0.1
+
+
