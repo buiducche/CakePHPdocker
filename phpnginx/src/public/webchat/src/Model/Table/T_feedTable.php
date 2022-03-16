@@ -14,7 +14,8 @@ class T_feedTable extends Table
         $this->addBehavior('Timestamp', [
             'events' => [
                 'Model.beforeSave' => [
-                    'create_at' => 'new'     
+                    'create_at' => 'new',
+                    'update_at' => 'always'     
                 ],
             ]
         ]);

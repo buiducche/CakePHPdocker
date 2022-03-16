@@ -37,11 +37,16 @@ $Description = 'Webchat';
 <body onload="fun">
     <nav class="top-nav" style="background-color:lightblue;min-width:100%">
         <div class="top-nav-title">
-            <a href="<?= $this->Url->build('/chat') ?>"><span>FEED</span></a>
+            <a href="<?= $this->Url->build('/chat') ?>"><span>CHATWORK</span></a>
         </div>
         <div class="top-nav-links">
-            <a target="_blank" rel="noopener" href="">Edit</a>
-            <a target="_blank" rel="noopener" href="">Logout</a>
+               <?php
+                    $session = $this->request->getSession();
+                    $email=$session->read('email');
+                    $name=$session->read('name');
+                    echo "<span>$name<span>";
+               ?>
+            <a href="/user/logout">Logout</a>
         </div>
     </nav>
     <main class="main">
@@ -50,9 +55,9 @@ $Description = 'Webchat';
         </div>
     </main>
     <footer>
-        <div style="width:100%;background-color:lightblue;height:100px;position:fixed;">
+        <!-- <div style="width:100%;background-color:lightblue;height:100px;position:fixed;">
             
-        </div>
+        </div> -->
     </footer>
 </body>
 <script>

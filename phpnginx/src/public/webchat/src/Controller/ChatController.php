@@ -16,17 +16,27 @@ class ChatController extends AppController
         $this->loadComponent('Flash');
     }
     public function index()
-    {
-        $t_feed =  $this->Paginator->paginate($this->T_feed->find());
+    {   
+        $session = $this->request->getSession();
+        $email=$session->read('email');
+        $name=$session->read('name');
+        if(!$email){
+            return $this->redirect(['controller'=>'user','action' => 'login']);
+        }
+        // echo $email;
+        $t_feed =  $this->T_feed->find();
         $this->set(compact('t_feed')); 
         // echo json_encode($t_feed);
         // echo "hello";
     }
     public function feed()
-    { 
+    {   
         $t_feed_new = $this->T_feed->newEmptyEntity();
         if ($this->request->is('post')) {
             $t_feed_new = $this->T_feed->patchEntity($t_feed_new, $this->request->getData());
+            $session = $this->request->getSession();
+            $name=$session->read('name');
+            $t_feed_new->name=$name;
             // $time = Time::now();
             // $t_feed_new->create_at=$time;
             // Hardcoding the user_id is temporary, and will be removed later

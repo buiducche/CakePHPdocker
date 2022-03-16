@@ -49,7 +49,7 @@ return [
             'username' => 'root',
             'password' => '221100',
 
-            'database' => 'webchat',
+            'database' => 'simple_chat_system',
             /*
              * If not using the default 'public' schema with the PostgreSQL driver
              * set it here.
