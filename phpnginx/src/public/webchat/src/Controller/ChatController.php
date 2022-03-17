@@ -23,11 +23,9 @@ class ChatController extends AppController
         if(!$email){
             return $this->redirect(['controller'=>'user','action' => 'login']);
         }
-        // echo $email;
         $t_feed =  $this->T_feed->find();
-        $this->set(compact('t_feed')); 
-        // echo json_encode($t_feed);
-        // echo "hello";
+        $this->set(compact('t_feed'));
+        $this->set(compact('name'));
     }
     public function feed()
     {   
@@ -35,12 +33,21 @@ class ChatController extends AppController
         if ($this->request->is('post')) {
             $t_feed_new = $this->T_feed->patchEntity($t_feed_new, $this->request->getData());
             $session = $this->request->getSession();
-            $name=$session->read('name');
-            $t_feed_new->name=$name;
-            // $time = Time::now();
-            // $t_feed_new->create_at=$time;
-            // Hardcoding the user_id is temporary, and will be removed later
-            // when we build authentication out.
+            $image= $this->request->getData('image');
+            $image_name=$image->getclientFilename();
+            // debug($image);
+            // exit;
+
+            $t_feed_new->user_id=$session->read('user_id');
+            $t_feed_new->name=$session->read('name');
+            $t_feed_new->image_file_name=$image_name;
+            
+            //Save Image
+            if($image_name){
+                $targetPath = WWW_ROOT.'img'.DS.$image_name;
+                $image->moveTo($targetPath);
+            }
+            //Save Feed
             if ($this->T_feed->save($t_feed_new)) 
             return $this->redirect(['action' => 'index']);
         }

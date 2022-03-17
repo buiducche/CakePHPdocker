@@ -37,6 +37,7 @@ class UserController extends AppController
                 $session = $this->getRequest()->getSession();
                         $session->write('email', $user->email);
                         $session->write('name', $user->name);
+                        $session->write('user_id', $user->id);
                 return $this->redirect(['controller'=>'chat','action' => 'index']);
             }else{
                 $this->Flash->error(__('Login false'));
@@ -73,6 +74,7 @@ class UserController extends AppController
         $session = $this->getRequest()->getSession();
         $session->delete('email');
         $session->delete('name');
+        $session->delete('user_id');
         return $this->redirect(['action' => 'login']);
     }
 }

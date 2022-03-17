@@ -41,9 +41,6 @@ $Description = 'Webchat';
         </div>
         <div class="top-nav-links">
                <?php
-                    $session = $this->request->getSession();
-                    $email=$session->read('email');
-                    $name=$session->read('name');
                     echo "<span>$name<span>";
                ?>
             <a href="/user/logout">Logout</a>

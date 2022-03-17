@@ -7,6 +7,5 @@ class T_user extends Entity
 {
     protected $_accessible = [
         '*' => true,
-        'id' => false,
     ];
 }
