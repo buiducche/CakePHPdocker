@@ -34,19 +34,41 @@ class ChatController extends AppController
             $t_feed_new = $this->T_feed->patchEntity($t_feed_new, $this->request->getData());
             $session = $this->request->getSession();
             $image= $this->request->getData('image');
+            $video= $this->request->getData('video');
             $image_name=$image->getclientFilename();
-            // debug($image);
+            $video_name=$video->getclientFilename();
+            // debug($video);
             // exit;
+            if($t_feed_new->getErrors()){
+                return $this->redirect(['action' => 'index']);
+
+            }
 
             $t_feed_new->user_id=$session->read('user_id');
-            $t_feed_new->name=$session->read('name');
-            $t_feed_new->image_file_name=$image_name;
-            
+            $t_feed_new->name=$session->read('name');            
             //Save Image
             if($image_name){
-                $targetPath = WWW_ROOT.'img'.DS.$image_name;
+                $t_feed_new->image_file_name='upload/'.$image_name;
+
+                if(!is_dir(WWW_ROOT.'img'.DS.'upload')){
+                    mkdir(WWW_ROOT.'img'.DS.'upload',755);
+                }
+
+                $targetPath = WWW_ROOT.'img'.DS.'upload'.DS.$image_name;
                 $image->moveTo($targetPath);
             }
+
+            //Save Video
+            if($video_name){
+                $t_feed_new->image_file_name='video/'.$video_name;
+
+                if(!is_dir(WWW_ROOT.'files'.DS.'video')){
+                    mkdir(WWW_ROOT.'files'.DS.'video',755);
+                }
+                $targetPath = WWW_ROOT.'files'.DS.'video'.DS.$video_name;
+                $video->moveTo($targetPath);
+            }
+
             //Save Feed
             if ($this->T_feed->save($t_feed_new)) 
             return $this->redirect(['action' => 'index']);

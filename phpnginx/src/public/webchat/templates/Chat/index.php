@@ -10,7 +10,7 @@
 }
 
 .chatbox{
-    height:590px;
+    height:400px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -23,6 +23,10 @@
     position: relative;
     display: flex;
     flex-direction: row-reverse;
+}
+
+.flex{
+    display: flex;
 }
 
 input[type="file"] {
@@ -58,29 +62,92 @@ input[type="file"] {
 .textarea{
     width: 100%;
 }
+
+.imagebox{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+
+video {
+  max-width: 600px;
+  height: 100%;
+}
+
+.avartar{
+  background-color: #f8fafc;
+  border: 1px solid #dbdbdb;
+  border-radius: 50% 50% 0 50%;
+  box-sizing: border-box;
+  color: #1a1a1a;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  line-height: 19.5px;
+  overflow: hidden;
+  padding: 0;
+  width: 32px;
+}
+
+.name{
+  background-color: transparent;
+  border-width: 0;
+  color: #436475;
+  cursor: pointer;
+  display: inline;
+  font-family: -apple-system,BlinkMacSystemFont,".SFNSDisplay-Regular","Segoe UI","Helvetica Neue","Hiragino Sans",ヒラギノ角ゴシック,"Hiragino Kaku Gothic ProN","ヒラギノ角ゴ  ProN W3",Meiryo,メイリオ,"MS PGothic","ＭＳ  Ｐゴシック",sans-serif;
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 19.5px;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  quotes: auto;
+  white-space: nowrap;
+}
+
 </style>
 
 <div class="chatbox" id="chatbox">    
     <?php foreach ($t_feed as $t_feed): ?>
         <div class="khung">    
-    <p>
-        <span>
-            <?= $t_feed->name.':' ?>
-        </span>
-        <span>
-            <?= $t_feed->create_at->format('d/m/Y H:i:s') ?>
-        </span>
-        <span>
-            <?= $t_feed->update_at->format('d/m/Y H:i:s') ?>
-        </span> 
-        <div>
-            <?= $t_feed->message ?>
-        </div>    
-    </p>
-        <div>
-            <?php if($t_feed->image_file_name) echo $this->Html->image($t_feed->image_file_name) ?>
+            <p>
+                <span class="name">
+                    <?= $t_feed->name.'' ?>
+                </span>
+                <span>
+                    <?= $t_feed->create_at->format('d/m/Y H:i:s') ?>
+                </span>
+                <!-- <span>
+                    <?= $t_feed->update_at->format('d/m/Y H:i:s') ?>
+                </span>  -->
+                <div>
+                    <span>
+                    <?= $t_feed->message ?>
+                    </span>
+                    
+                </div>    
+            </p>
+                    <?php if($t_feed->image_file_name){
+                        if(substr($t_feed->image_file_name,0,5)=='video'){
+                            echo "<div class=\"video\">";
+                            echo $this->Html->media($t_feed->image_file_name,['alt' => 'video','controls' => true, 'type'=>"video/mp4"]);
+                            echo "</div>"; 
+                        }else{
+                            echo "<div class=\"imagebox\">";
+                            echo $this->Html->image($t_feed->image_file_name,['alt' => 'image']);
+                            echo "</div>";
+                        }
+                        
+                        // echo $this->Html->link(
+                            // echo $this->Html->image($t_feed->image_file_name);
+                        // );
+                    }   
+                    ?>
+        
         </div>
-    </div>
     <?php endforeach; ?>
     </div>
     <script>
@@ -96,7 +163,8 @@ input[type="file"] {
     // echo $this->Form->control('Photo',['type'=>'file']);
     // echo '</label>';
     echo '<div class="flex" style="justify-content: space-between;">';
-    echo '<div><label class="custom-file-upload"><input name="image" type="file"/>Photo</label></div>';
+    echo '<div><span><label class="custom-file-upload"><input name="image" type="file"/>Photo</label></span>';
+    echo '<span><label class="custom-file-upload"><input name="video" type="file"/>Video</label></span></div>';
     echo '<div><input class="submit" value="POST" type="submit"></div>';
     echo '</div>';
     ?>
