@@ -10,7 +10,7 @@
 }
 
 .chatbox{
-    height:400px;
+    height:270px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -107,7 +107,17 @@ video {
   quotes: auto;
   white-space: nowrap;
 }
+#slide {
+    width: auto;
+    height: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
 
+.ignore-css{
+    all: unset;
+}
 </style>
 
 <div class="chatbox" id="chatbox">    
@@ -117,12 +127,29 @@ video {
                 <span class="name">
                     <?= $t_feed->name.'' ?>
                 </span>
+
                 <span>
                     <?= $t_feed->create_at->format('d/m/Y H:i:s') ?>
                 </span>
-                <!-- <span>
-                    <?= $t_feed->update_at->format('d/m/Y H:i:s') ?>
-                </span>  -->
+
+                <span>
+                    <?= "edited".$t_feed->update_at->format('d/m/Y H:i:s') ?>
+                </span> 
+            
+                <div>
+                    <?php 
+                        if($t_feed->user_id == $user_id){
+                            echo $this->Html->link('Edit', ['action' => 'edit', $t_feed->id]);
+                            echo '&nbsp';
+                            echo $this->Form->postLink(
+                                'Delete',
+                                ['action' => 'delete', $t_feed->id],
+                                ['confirm' => 'Are you sure?']);
+                        }
+
+                    ?>
+                </div>
+
                 <div>
                     <span>
                     <?= $t_feed->message ?>
@@ -130,7 +157,9 @@ video {
                     
                 </div>    
             </p>
-                    <?php if($t_feed->image_file_name){
+                    <?php 
+                    //Video and image
+                    if($t_feed->image_file_name){
                         if(substr($t_feed->image_file_name,0,5)=='video'){
                             echo "<div class=\"video\">";
                             echo $this->Html->media($t_feed->image_file_name,['alt' => 'video','controls' => true, 'type'=>"video/mp4"]);
@@ -138,13 +167,16 @@ video {
                         }else{
                             echo "<div class=\"imagebox\">";
                             echo $this->Html->image($t_feed->image_file_name,['alt' => 'image']);
+                            echo '<a href="/img/'.$t_feed->image_file_name.'" download >'.substr($t_feed->image_file_name,8).'</a>';
                             echo "</div>";
+                            
                         }
+                    } 
+                    //stamp
+                    if($t_feed->stamp_id){
                         
-                        // echo $this->Html->link(
-                            // echo $this->Html->image($t_feed->image_file_name);
-                        // );
-                    }   
+                        echo $this->Html->image("stamp/".$t_feed->stamp_id.".png",['alt' => 'image','type'=>'stamp']);
+                    }    
                     ?>
         
         </div>
@@ -155,18 +187,29 @@ video {
             document.getElementById("chatbox").scrollTop = document.getElementById("chatbox").scrollHeight;
     }, 100);    
     </script>
-
+   
     
     <?php
     echo $this->Form->create(null, ['type'=>'file','url' => ['action' => 'feed']]);
     // echo '<label for="file-upload" class="custom-file-upload">';
     // echo $this->Form->control('Photo',['type'=>'file']);
     // echo '</label>';
+    echo '<div id="slide">';
+    
+        for ($x = 1; $x <= 24; $x++) {
+            echo '<button class="ignore-css" type="submit" name="stamp_id" value='.$x.'>';
+            echo $this->Html->image("stamp/".$x.".png",['alt' => 'image','type'=>'image','value'=>$x]);
+            echo '</button>';
+          }
+    
+    echo '</div>';
     echo '<div class="flex" style="justify-content: space-between;">';
     echo '<div><span><label class="custom-file-upload"><input name="image" type="file"/>Photo</label></span>';
     echo '<span><label class="custom-file-upload"><input name="video" type="file"/>Video</label></span></div>';
     echo '<div><input class="submit" value="POST" type="submit"></div>';
     echo '</div>';
+    // echo $this->Form->control('stamp_id',['label'=>false,'type'=>'text']);
+
     ?>
     
     <div class="flex"> 
