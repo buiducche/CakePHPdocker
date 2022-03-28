@@ -33,6 +33,13 @@ class ChatController extends AppController
 
     public function feed()
     {   
+        $session = $this->request->getSession();
+        $email=$session->read('email');
+        $name=$session->read('name');
+        $user_id=$session->read('user_id');
+        if(!$email){
+            return $this->redirect(['controller'=>'user','action' => 'login']);
+        }
         $t_feed_new = $this->T_feed->newEmptyEntity();
         if ($this->request->is('post')) {
             $t_feed_new = $this->T_feed->patchEntity($t_feed_new, $this->request->getData());
@@ -94,9 +101,9 @@ class ChatController extends AppController
         if(!$email || $user_id != $t_feed->user_id){
             return $this->redirect(['controller'=>'user','action' => 'login']);
         }
-        
+
         $this->set(compact('name'));
-        
+        $this->set(compact('t_feed'));
 
         
         if ($this->request->is(['post', 'put'])) {

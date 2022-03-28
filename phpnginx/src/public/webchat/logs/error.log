@@ -49780,3 +49780,218 @@ Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
 Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
 [main] - ROOT/webroot/index.php, line 40
 
+2022-03-24 17:20:53 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null in /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:75
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:337
+- /src/public/webchat/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:340
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Query.php:250
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:2072
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1965
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1866
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1555
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:686
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1867
+- /src/public/webchat/src/Controller/ChatController.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /chat/feed
+Referer URL: http://127.0.0.1/chat
+Client IP: 172.18.0.1
+
+
+2022-03-24 17:21:00 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null in /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:75
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:337
+- /src/public/webchat/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:340
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Query.php:250
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:2072
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1965
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1866
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1555
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:686
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1867
+- /src/public/webchat/src/Controller/ChatController.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /chat/feed
+Referer URL: http://127.0.0.1/chat
+Client IP: 172.18.0.1
+
+
+2022-03-24 17:21:22 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null in /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:75
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:337
+- /src/public/webchat/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:340
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Query.php:250
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:2072
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1965
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1866
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1555
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:686
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1867
+- /src/public/webchat/src/Controller/ChatController.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /chat/feed
+Referer URL: http://192.168.56.109/chat
+Client IP: 192.168.56.1
+
+
+2022-03-24 17:21:27 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null in /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:75
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:337
+- /src/public/webchat/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:340
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Query.php:250
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:2072
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1965
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1866
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1555
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:686
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1867
+- /src/public/webchat/src/Controller/ChatController.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /chat/feed
+Referer URL: http://192.168.56.109/chat
+Client IP: 192.168.56.1
+
+
+2022-03-25 15:17:16 error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'name' cannot be null in /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:180
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:75
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:337
+- /src/public/webchat/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:340
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Query.php:250
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:2072
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1965
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1866
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1555
+- /src/public/webchat/vendor/cakephp/cakephp/src/Database/Connection.php:686
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1556
+- /src/public/webchat/vendor/cakephp/cakephp/src/ORM/Table.php:1867
+- /src/public/webchat/src/Controller/ChatController.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/Controller.php:539
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:140
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:115
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:317
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:162
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /chat/feed
+Referer URL: http://127.0.0.1/chat
+Client IP: 172.18.0.1
+
+

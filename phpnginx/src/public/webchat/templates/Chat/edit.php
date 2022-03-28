@@ -119,8 +119,24 @@ video {
     all: unset;
 }
 </style>
-<h1>Edit Feed</h1>
+<h1>Your Feed</h1>
+<?= $t_feed->message ?>
 <?php
+    if($t_feed->image_file_name){
+        if(substr($t_feed->image_file_name,0,5)=='video'){
+            echo "<div class=\"video\">";
+            echo $this->Html->media($t_feed->image_file_name,['alt' => 'video','controls' => true, 'type'=>"video/mp4"]);
+            echo "</div>"; 
+        }else{
+            echo "<div class=\"imagebox\">";
+            echo $this->Html->image($t_feed->image_file_name,['alt' => 'image']);
+            echo '<a href="/img/'.$t_feed->image_file_name.'" download >'.substr($t_feed->image_file_name,8).'</a>';
+            echo "</div>";
+            
+        }
+    } 
+    if($t_feed->stamp_id) echo $this->Html->image("stamp/".$t_feed->stamp_id.".png",['alt' => 'image','type'=>'stamp']);  
+                    
     echo $this->Form->create($t_feed,['type'=>'file']);
     echo '<div id="slide">';
     
