@@ -167,7 +167,7 @@ video {
                         }else{
                             echo "<div class=\"imagebox\">";
                             echo $this->Html->image($t_feed->image_file_name,['alt' => 'image']);
-                            echo '<a href="/img/'.$t_feed->image_file_name.'" download >'.substr($t_feed->image_file_name,8).'</a>';
+                            echo '<a href="/img/'.$t_feed->image_file_name.'" download >'.substr($t_feed->image_file_name,7).'</a>';
                             echo "</div>";
                             
                         }
@@ -185,7 +185,26 @@ video {
     <script>
         setTimeout(() => {
             document.getElementById("chatbox").scrollTop = document.getElementById("chatbox").scrollHeight;
-    }, 100);    
+    }, 100);
+
+    function showimagename() {
+      var name = document.getElementById('image_upload'); 
+    //   alert('Selected image file: ' + name.files.item(0).name);
+      const [file] = name.files
+      if (file) {
+        blah.src = URL.createObjectURL(file);
+        blah.style.display = "block";
+        }
+    };   
+    function showvideoname() {
+      var name = document.getElementById('video_upload'); 
+    //   alert('Selected video file: ' + name.files.item(0).name);
+      const [file] = name.files
+      if (file) {
+        blvh.src = URL.createObjectURL(file);
+        blvh.style.display = "block";
+        }
+    };  
     </script>
    
     
@@ -204,14 +223,19 @@ video {
     
     echo '</div>';
     echo '<div class="flex" style="justify-content: space-between;">';
-    echo '<div><span><label class="custom-file-upload"><input name="image" type="file"/>Photo</label></span>';
-    echo '<span><label class="custom-file-upload"><input name="video" type="file"/>Video</label></span></div>';
+    echo '<div><span><label class="custom-file-upload"><input id="image_upload" name="image" type="file" onchange="showimagename()" />Photo</label></span>';
+    echo '<span><label class="custom-file-upload"><input id="video_upload" name="video" type="file" onchange="showvideoname()" />Video</label></span></div>';
     echo '<div><input class="submit" value="POST" type="submit"></div>';
     echo '</div>';
     // echo $this->Form->control('stamp_id',['label'=>false,'type'=>'text']);
 
     ?>
-    
+    <img id="blah" src="#" class="imagebox" alt="image upload" style="display:none"/>
+
+    <video id="blvh" src="#" type="video/mp4" style="display:none" width="320" height="240" controls>
+    Your browser does not support the video tag.
+    </video>
+
     <div class="flex"> 
         <?php
         echo $this->Form->control('message', ['rows' => '3','label' => false,'placeholder' => "Enter your message here",'style'=>'width:100%;']);
