@@ -10,7 +10,6 @@ use Cake\Event\EventInterface;
 class T_userTable extends Table
 {
     public function initialize(array $config): void
-    {
-       
+    {     
     }
 }

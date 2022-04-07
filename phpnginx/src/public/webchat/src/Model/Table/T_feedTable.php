@@ -25,9 +25,7 @@ class T_feedTable extends Table
     }
     public function beforeSave(EventInterface $event, $entity, $options)
 {
-    
 }
-
     public function validationDefault(Validator $validator): Validator
 {
     $validator

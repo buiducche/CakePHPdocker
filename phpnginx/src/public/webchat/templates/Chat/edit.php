@@ -1,31 +1,21 @@
 <style>
-
-.khung{
-    padding: 10px;
-    min-width: 100px;
-    border: 1px solid lightgray;
-    margin: 5px;
-    border-radius:5px;
-    position: relative;
-}
-
-.chatbox{
-    height:270px;
+.chatbox {
+    height: 270px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.submit{
+.submit {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
@@ -42,28 +32,32 @@ input[type="file"] {
     cursor: pointer;
     border-radius: 4px;
 }
+
 .custom-file-upload:focus,
 .custom-file-upload:active:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px;
 }
+
 .custom-file-upload:hover,
 .custom-file-upload:focus {
     color: #333;
     text-decoration: none;
 }
+
 .custom-file-upload:active {
     background-image: none;
     outline: 0;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
-.textarea{
+
+.textarea {
     width: 100%;
 }
 
-.imagebox{
+.imagebox {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
@@ -72,41 +66,41 @@ input[type="file"] {
 
 
 video {
-  max-width: 600px;
-  height: 100%;
+    max-width: 600px;
+    height: 100%;
 }
 
-.avartar{
-  background-color: #f8fafc;
-  border: 1px solid #dbdbdb;
-  border-radius: 50% 50% 0 50%;
-  box-sizing: border-box;
-  color: #1a1a1a;
-  display: flex;
-  height: 32px;
-  justify-content: center;
-  line-height: 19.5px;
-  overflow: hidden;
-  padding: 0;
-  width: 32px;
+.avartar {
+    background-color: #f8fafc;
+    border: 1px solid #dbdbdb;
+    border-radius: 50% 50% 0 50%;
+    box-sizing: border-box;
+    color: #1a1a1a;
+    display: flex;
+    height: 32px;
+    justify-content: center;
+    line-height: 19.5px;
+    overflow: hidden;
+    padding: 0;
+    width: 32px;
 }
 
-.name{
-  background-color: transparent;
-  border-width: 0;
-  color: #436475;
-  cursor: pointer;
-  display: inline;
-  font-family: -apple-system,BlinkMacSystemFont,".SFNSDisplay-Regular","Segoe UI","Helvetica Neue","Hiragino Sans",ヒラギノ角ゴシック,"Hiragino Kaku Gothic ProN","ヒラギノ角ゴ  ProN W3",Meiryo,メイリオ,"MS PGothic","ＭＳ  Ｐゴシック",sans-serif;
-  font-size: 100%;
-  font-weight: 700;
-  line-height: 19.5px;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-  quotes: auto;
-  white-space: nowrap;
+.name {
+    background-color: transparent;
+    border-width: 0;
+    color: #436475;
+    cursor: pointer;
+    display: inline;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 19.5px;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    quotes: auto;
+    white-space: nowrap;
 }
+
 #slide {
     width: auto;
     height: 100px;
@@ -115,45 +109,44 @@ video {
     white-space: nowrap;
 }
 
-.ignore-css{
+.ignore-css {
     all: unset;
 }
 </style>
 <h1>Your Feed</h1>
 <?= $t_feed->message ?>
 <?php
-    if($t_feed->image_file_name){
-        if(substr($t_feed->image_file_name,0,5)=='video'){
-            echo "<div class=\"video\">";
-            echo $this->Html->media($t_feed->image_file_name,['alt' => 'video','controls' => true, 'type'=>"video/mp4"]);
-            echo "</div>"; 
-        }else{
-            echo "<div class=\"imagebox\">";
-            echo $this->Html->image($t_feed->image_file_name,['alt' => 'image']);
-            echo '<a href="/img/'.$t_feed->image_file_name.'" download >'.substr($t_feed->image_file_name,8).'</a>';
-            echo "</div>";
-            
-        }
-    } 
-    if($t_feed->stamp_id) echo $this->Html->image("stamp/".$t_feed->stamp_id.".png",['alt' => 'image','type'=>'stamp']);  
-                    
-    echo $this->Form->create($t_feed,['type'=>'file']);
-    echo '<div id="slide">';
-    
-    for ($x = 1; $x <= 24; $x++) {
-        echo '<button class="ignore-css" type="submit" name="stamp_id" value='.$x.'>';
-        echo $this->Html->image("stamp/".$x.".png",['alt' => 'image','type'=>'image','value'=>$x]);
-        echo '</button>';
-      }
-
-    echo '</div>';
-    echo '<div class="flex" style="justify-content: space-between;">';
-    echo '<div><span><label class="custom-file-upload"><input name="image" type="file"/>Photo</label></span>';
-    echo '<span><label class="custom-file-upload"><input name="video" type="file"/>Video</label></span></div>';
-    echo '<div><input class="submit" value="POST" type="submit"></div>';
-    echo '</div>';
-    echo $this->Form->control('message', ['rows' => '3','label' => false,'placeholder' => "Enter your message here",'style'=>'width:100%;']);
-    echo $this->Form->end();
-
-
+if ($t_feed->image_file_name) {
+    if (substr($t_feed->image_file_name, 0, 5) == 'video') {
+        echo "<div class=\"video\">";
+        echo $this->Html->media($t_feed->image_file_name, ['alt' => 'video', 'controls' => true, 'type' => "video/mp4"]);
+        echo "</div>";
+    } else {
+        echo "<div class=\"imagebox\">";
+        echo $this->Html->image($t_feed->image_file_name, ['alt' => 'image']);
+        echo '<a href="/img/' . $t_feed->image_file_name . '" download >' . substr($t_feed->image_file_name, 8) . '</a>';
+        echo "</div>";
+    }
+}
+if ($t_feed->stamp_id) {
+    echo $this->Html->image("stamp/" . $t_feed->stamp_id . ".png", ['alt' => 'image', 'type' => 'stamp']);
+}
 ?>
+<?= $this->Form->create($t_feed, ['type' => 'file']); ?>
+<div id="slide">
+    <?php
+    for ($x = 1; $x <= 24; $x++) {
+        echo '<button class="ignore-css" type="submit" name="stamp_id" value=' . $x . '>';
+        echo $this->Html->image("stamp/" . $x . ".png", ['alt' => 'image', 'type' => 'image', 'value' => $x]);
+        echo '</button>';
+    }
+    ?>
+</div>
+<div class="flex" style="justify-content: space-between;">
+    <div><span><label class="custom-file-upload"><input name="image" type="file" />Photo</label></span>
+        <span><label class="custom-file-upload"><input name="video" type="file" />Video</label></span>
+    </div>
+    <div><input class="submit" value="POST" type="submit"></div>
+</div>
+<?= $this->Form->control('message', ['rows' => '3', 'label' => false, 'placeholder' => "Enter your message here", 'style' => 'width:100%;']);
+$this->Form->end(); ?>
