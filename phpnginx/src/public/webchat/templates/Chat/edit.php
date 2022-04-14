@@ -143,7 +143,8 @@ if ($t_feed->stamp_id) {
     ?>
 </div>
 <div class="flex" style="justify-content: space-between;">
-    <div><span><label class="custom-file-upload"><input name="image" type="file" />Photo</label></span>
+    <div>
+        <span><label class="custom-file-upload"><input name="image" type="file" />Photo</label></span>
         <span><label class="custom-file-upload"><input name="video" type="file" />Video</label></span>
     </div>
     <div><input class="submit" value="POST" type="submit"></div>
