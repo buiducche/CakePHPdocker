@@ -24,7 +24,11 @@ $Description = 'Webchat';
     <title>
         <?= $Description ?>:
     </title>
-    <?= $this->Html->meta('icon') ?>
+    <?= $this->Html->meta(
+    'favicon.ico',
+    '/img/favicon.ico',
+    ['type' => 'icon']
+); ?>
 
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 
@@ -34,7 +38,7 @@ $Description = 'Webchat';
     <?= $this->fetch('css') ?>
     <?= $this->fetch('script') ?>
 </head>
-<body onload="fun">
+<body>
     <nav class="top-nav" style="background-color:lightblue;min-width:100%">
         <div class="top-nav-title">
             <a href="<?= $this->Url->build('/chat') ?>"><span>CHATWORK</span></a>
@@ -52,16 +56,9 @@ $Description = 'Webchat';
         </div>
     </main>
     <footer>
-        <!-- <div style="width:100%;background-color:lightblue;height:100px;position:fixed;">
-            
-        </div> -->
     </footer>
 </body>
 <script>
-    function fun(){
-        
-
-    } 
 </script>
 </html>
 

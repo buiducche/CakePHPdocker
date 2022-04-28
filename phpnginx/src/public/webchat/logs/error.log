@@ -50228,3 +50228,331 @@ Request URL: /chat/edit
 Client IP: 192.168.56.1
 
 
+2022-04-14 13:10:50 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Favicon.ico',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Referer URL: http://192.168.56.109/
+Client IP: 192.168.56.1
+
+
+2022-04-14 13:16:45 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Favicon.ico',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Referer URL: http://192.168.56.109/
+Client IP: 192.168.56.1
+
+
+2022-04-14 13:16:50 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Favicon.ico',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Referer URL: http://192.168.56.109/
+Client IP: 192.168.56.1
+
+
+2022-04-14 13:17:19 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Favicon.ico',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Referer URL: http://192.168.56.109/
+Client IP: 192.168.56.1
+
+
+2022-04-14 13:22:55 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Favicon.ico',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Client IP: 192.168.56.1
+
+
+2022-04-14 13:23:36 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Favicon.ico',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Client IP: 192.168.56.1
+
+
+2022-04-14 13:24:04 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Exception Attributes: array (
+  'class' => 'Favicon.ico',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Client IP: 192.168.56.1
+
+
+2022-04-18 08:51:40 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Referer URL: http://192.168.56.109/user/login
+Client IP: 192.168.56.1
+
+
+2022-04-20 13:32:53 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Referer URL: http://192.168.56.109/user/login
+Client IP: 192.168.56.1
+
+
+2022-04-21 08:51:07 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Referer URL: http://192.168.56.109/user/login
+Client IP: 192.168.56.1
+
+
+2022-04-28 15:13:18 error: [Cake\Http\Exception\MissingControllerException] Controller class Favicon.ico could not be found. in /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 349
+Stack Trace:
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:334
+- /src/public/webchat/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:72
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/BaseApplication.php:315
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:174
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:157
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:161
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:77
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:126
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /src/public/webchat/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /src/public/webchat/webroot/index.php:40
+
+Request URL: /favicon.ico
+Referer URL: http://192.168.56.109/user/login
+Client IP: 192.168.56.1
+
+

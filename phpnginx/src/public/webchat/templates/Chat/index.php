@@ -10,7 +10,7 @@
     }
 
     .chatbox {
-        height: 370px;
+        height: 50vh;
         overflow-y: scroll;
         overflow-x: hidden;
     }
@@ -225,9 +225,7 @@
 </div>
 <script>
     //Go to bottom of the chat
-    setTimeout(() => {
-        document.getElementById("chatbox").scrollTop = document.getElementById("chatbox").scrollHeight;
-    }, 100);
+    document.getElementById("chatbox").scrollTop = document.getElementById("chatbox").scrollHeight;
     //Preview image
     function showimage() {
         var name = document.getElementById('image_upload');
